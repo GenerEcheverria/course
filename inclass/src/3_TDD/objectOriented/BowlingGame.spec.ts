@@ -2,7 +2,7 @@ import { BowlingGame } from "./BowlingGame";
 
 describe('Test Bowling Game Functionality', () => {
 
-  let game: BowlingGame;
+  let game;
 
   beforeEach(() => {
     game = new BowlingGame()
